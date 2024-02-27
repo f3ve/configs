@@ -33,9 +33,20 @@
   "files": [
     "dist"
   ],
+  "tsup": {
+    "entry": [
+      "./src/index.ts"
+    ],
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "clean": true,
+    "dts": true
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "build": "tsup",
     "lint": "eslint ."
   },
   "author": "Freedom Evenden (https://github.com/f3ve/)",
@@ -44,10 +55,9 @@
     "eslint": ">=8.0.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.3",
+    "@types/eslint": "^8.56.4",
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/eslint__js": "^8.42.3",
-    "tsup": "^8.0.2"
+    "@types/eslint__js": "^8.42.3"
   },
   "dependencies": {
     "@eslint/js": "^8.57.0",

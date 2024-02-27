@@ -10,7 +10,6 @@
     "build": "pnpm -r build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky",
     "version": "lerna version"
   },
   "lint-staged": {
@@ -24,14 +23,15 @@
     "@commitlint/cli": "^19.0.1",
     "@commitlint/config-conventional": "^19.0.0",
     "@commitlint/types": "^19.0.0",
-    "@f3ve/eslint-config": "workspace:^",
-    "@f3ve/prettier-config": "workspace:^",
+    "@f3ve/eslint-config": "workspace:*",
+    "@f3ve/prettier-config": "workspace:*",
     "@types/node": "^20.11.20",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lerna": "^8.1.2",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
 }

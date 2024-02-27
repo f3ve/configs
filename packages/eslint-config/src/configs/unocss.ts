@@ -1,7 +1,7 @@
 import unocss from '@unocss/eslint-config/flat';
-import { type FlatESLintConfigItem } from 'eslint-define-config';
+import { type FlatEslintConfig } from 'eslint-define-config';
 
-export function unocssConfig(): FlatESLintConfigItem[] {
+export function unocssConfig(): FlatEslintConfig[] {
   return [
     unocss,
     {

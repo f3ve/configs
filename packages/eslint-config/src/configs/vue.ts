@@ -1,4 +1,4 @@
-import { FlatESLintConfigItem, Parser } from 'eslint-define-config';
+import { FlatEslintConfig, Parser } from 'eslint-define-config';
 import tsParser from '@typescript-eslint/parser';
 import vueParser from 'vue-eslint-parser';
 import vuePlugin from 'eslint-plugin-vue';
@@ -7,7 +7,7 @@ import { GLOB_JSX, GLOB_TSX, GLOB_VUE } from '../globs';
 export function vueConfig(
   typescript?: boolean,
   jsx?: boolean,
-): FlatESLintConfigItem[] {
+): FlatEslintConfig[] {
   const files = [GLOB_VUE];
   if (jsx) {
     if (typescript) files.push(GLOB_TSX);
