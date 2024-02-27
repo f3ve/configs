@@ -1,4 +1,4 @@
-import { FlatESLintConfigItem } from 'eslint-define-config';
+import { type FlatESLintConfigItem } from 'eslint-define-config';
 import globals from 'globals';
 import { GLOB_JS, GLOB_JSX, GLOB_VUE } from '../globs';
 import js from '@eslint/js';

@@ -1,5 +1,5 @@
 import unocss from '@unocss/eslint-config/flat';
-import { FlatESLintConfigItem } from 'eslint-define-config';
+import { type FlatESLintConfigItem } from 'eslint-define-config';
 
 export function unocssConfig(): FlatESLintConfigItem[] {
   return [
