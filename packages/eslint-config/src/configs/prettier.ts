@@ -1,4 +1,4 @@
-import { FlatESLintConfigItem } from 'eslint-define-config';
+import { type FlatESLintConfigItem } from 'eslint-define-config';
 import { GLOB_DEFAULT_FILES } from '../globs';
 import prettierPlugin from 'eslint-plugin-prettier';
 import eslintConfigPrettier from 'eslint-config-prettier';
