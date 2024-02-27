@@ -1,6 +1,6 @@
 {
   "name": "@f3ve/prettier-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Freedom Evenden's Prettier config",
   "main": "src/index.js",
   "keywords": [
