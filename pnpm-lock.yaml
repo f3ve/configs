@@ -20,6 +20,9 @@ importers:
       '@f3ve/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
+      '@f3ve/prettier-config':
+        specifier: workspace:^
+        version: link:packages/prettier-config
       '@types/node':
         specifier: ^20.11.20
         version: 20.11.20
@@ -90,6 +93,8 @@ importers:
       tsup:
         specifier: ^8.0.2
         version: 8.0.2(typescript@5.3.3)
+
+  packages/prettier-config: {}
 
 packages:
 

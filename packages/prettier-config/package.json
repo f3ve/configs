@@ -1,0 +1,21 @@
+{
+  "name": "@f3ve/prettier-config",
+  "version": "0.0.0",
+  "description": "Freedom Evenden's Prettier config",
+  "main": "src/index.js",
+  "keywords": [
+    "prettier",
+    "config",
+    "f3ve",
+    "freedom evenden"
+  ],
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/f3ve/configs",
+  "author": "Freedom Evenden (https://github.com/f3ve/)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
