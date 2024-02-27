@@ -1,0 +1,64 @@
+{
+  "name": "@f3ve/eslint-config",
+  "version": "1.0.6",
+  "description": "Freedom Evenden's ESlint config.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "funding": [
+    {
+      "type": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/f3ve"
+    },
+    {
+      "type": "Buy me a Coffee",
+      "url": "https://www.buymeacoffee.com/f3ve"
+    }
+  ],
+  "homepage": "https://github.com/f3ve/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f3ve/eslint-config"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "keywords": [
+    "eslint-config",
+    "f3ve"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format esm,cjs --clean --dts",
+    "lint": "eslint ."
+  },
+  "author": "Freedom Evenden (https://github.com/f3ve/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.3",
+    "@types/eslint-config-prettier": "^6.11.1",
+    "@types/eslint__js": "^8.42.1",
+    "tsup": "^7.2.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@unocss/eslint-config": "^0.56.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-define-config": "^1.23.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "globals": "^13.22.0",
+    "vue-eslint-parser": "^9.3.1"
+  }
+}
